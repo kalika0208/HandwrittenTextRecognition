@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Uploaded files (should not be committed - they're temporary)
+uploads/*
+!uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
