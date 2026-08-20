@@ -1,6 +1,7 @@
 # Handwritten Text Recognition (CLI Version)
 
 A simple command-line project: put an image in a folder, run the script, and it prints the text it found in that image.
+It is a command-line Handwritten/Printed Text Recognition tool in Python using OpenCV for image preprocessing and EasyOCR for text extraction, with results logged to a local SQLite database.
 
 ---
 
@@ -109,13 +110,11 @@ real-world limitations yourself.
 
 ---
 
-## Resume-Ready Description
 
-- Built a command-line Handwritten/Printed Text Recognition tool in Python using OpenCV for image preprocessing (grayscale conversion, resizing, adaptive thresholding) and EasyOCR for text extraction, with results logged to a local SQLite database.
-
-## Technologies Used (1 line)
+## Technologies Used 
 
 Python, OpenCV, EasyOCR, SQLite.
 
 
-Author: Kalika Mehtani
+## Author: 
+Kalika Mehtani
