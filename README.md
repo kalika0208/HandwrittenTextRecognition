@@ -87,13 +87,15 @@ automatically on first run).
 
 ---
 
-## Testing Accuracy
+## Testing Accuracy- Model Performance
 
-Start with a clear, well-lit photo of printed text (like a book page)
-to confirm everything works end-to-end. Then try neater handwriting,
-and finally messier/cursive handwriting to see where accuracy drops off
-— a good thing to mention in an interview: you tested the model's
-real-world limitations yourself.
+**Sample Test Evaluation**
+
+| Test Images | Correct Predictions | Exact Match Accuracy |
+| :--- | :--- | :--- |
+| 5 | 4 | **80%** |
+
+> **Note:** Evaluated on a sample test set of 5 handwritten images using exact text matching.
 
 ---
 
