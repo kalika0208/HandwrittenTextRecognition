@@ -1,25 +1,17 @@
 # Handwritten Text Recognition (CLI Version)
 
-A simple command-line project: put an image in a folder, run the
-script, and it prints the text it found in that image — no web server,
-no browser, nothing to deploy.
+A simple command-line project: put an image in a folder, run the script, and it prints the text it found in that image.
 
 ---
 
 ## Tech Stack
 
-Python, OpenCV, EasyOCR, SQLite (built into Python — no install needed).
+Python, OpenCV, EasyOCR, SQLite
 
 ---
 
-## Why EasyOCR instead of Tesseract?
-
-Tesseract needs a separate program installed on your system outside of
-Python (a `.exe` on Windows, a system package on Mac/Linux). EasyOCR
-installs entirely through `pip install`, so there's nothing extra to
-set up — just Python packages. The trade-off: EasyOCR uses a pretrained
-deep learning model internally (unlike Tesseract's classical pattern
-matching), and its first run downloads the model files automatically
+## Why EasyOCR 
+EasyOCR uses a pretrained deep learning model internally and its first run downloads the model files automatically
 (needs internet the first time only, then works fully offline).
 
 ---
