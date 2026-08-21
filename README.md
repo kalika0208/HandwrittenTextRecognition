@@ -1,4 +1,4 @@
-# Handwritten Text Recognition (CLI Version)
+# Handwritten Text Recognition 
 
 A simple command-line project: put an image in a folder, run the script, and it prints the text it found in that image.
 It is a command-line Handwritten/Printed Text Recognition tool in Python using OpenCV for image preprocessing and EasyOCR for text extraction, with results logged to a local SQLite database.
@@ -17,18 +17,6 @@ EasyOCR uses a pretrained deep learning model internally and its first run downl
 
 ---
 
-## Folder Structure
-HandwrittenTextRecognition/
-├── main.py              # Run this - the program's entry point (a menu)
-├── utils/
-│   ├── init.py
-│   ├── ocr_utils.py       # OpenCV preprocessing + EasyOCR text extraction
-│   └── db_utils.py          # SQLite history logging
-├── requirements.txt
-├── README.md
-├── images/                   # PUT YOUR INPUT IMAGES HERE
-└── output/                     # Extracted .txt files are saved here automatically
----
 
 ## Step-by-Step Explanation of Every File
 
@@ -96,19 +84,6 @@ automatically on first run).
 | 5 | 4 | **80%** |
 
 > **Note:** Evaluated on a sample test set of 5 handwritten images using exact text matching.
-
----
-
-## Common Interview Questions
-
-1. Why does OpenCV alone need EasyOCR — can't OpenCV read text by itself?
-2. What's the difference between Tesseract and EasyOCR under the hood?
-3. Why do you resize and threshold the image before OCR?
-4. What is adaptive thresholding, and why is it better than a fixed threshold here?
-5. Why is SQLite a reasonable choice for this project instead of MySQL/Postgres?
-6. How is the confidence score calculated when there are multiple lines of text?
-7. What would you change to make this work as a web app instead of a CLI tool?
-8. What are the accuracy limitations of this approach on messy handwriting?
 
 ---
 
